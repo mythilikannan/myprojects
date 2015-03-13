@@ -1,0 +1,10 @@
+CREATE DATABASE `alchemyschema` /*!40100 DEFAULT CHARACTER SET utf8 */;
+
+
+CREATE TABLE `expenses` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `date` date NOT NULL,
+  `amount` double NOT NULL,
+  `reason` varchar(45) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=49 DEFAULT CHARSET=utf8;
